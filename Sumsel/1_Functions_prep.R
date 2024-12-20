@@ -43,7 +43,7 @@ library(data.table)
 # Load necessary libraries
 library(terra)
 # Set the temporary directory for R's file usage
-tempdir_custom <- "E:/KLHK/KHG/1_Riau/R"
+tempdir_custom <- "E:/KLHK/KHG/Sumsel/R"
 # Ensure the temporary directory exists
 if (!dir.exists(tempdir_custom)) {
   dir.create(tempdir_custom, recursive = TRUE)
